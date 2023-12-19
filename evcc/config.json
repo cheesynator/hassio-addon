@@ -26,7 +26,7 @@
     "host_network": true,
     "map": ["config:rw"],
     "uart": true,
-    "webui": "http://[HOST]:[PORT:7070]/",
+    "webui": "https://[HOST]:[PORT:7070]/",
     "ports": {
         "5200/tcp": 5200,
         "5353/udp": 5353,
