@@ -14,7 +14,7 @@
     "ingress": true,
     "ingress_port": 7070,
     "init": false,
-    "image": "evcc/evcc_0.106.5_linux_amd64.tar.gz",
+    "image": "evcc/evcc",
     "options": {
         "config_file": "/config/evcc.yaml",
         "sqlite_file": "/data/evcc.db"
