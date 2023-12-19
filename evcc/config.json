@@ -14,7 +14,7 @@
     "ingress": true,
     "ingress_port": 7070,
     "init": false,
-    "image": "evcc/evcc",
+    "image": "evcc/evcc:0.106.5",
     "options": {
         "config_file": "/config/evcc.yaml",
         "sqlite_file": "/data/evcc.db"
@@ -26,7 +26,7 @@
     "host_network": true,
     "map": ["config:rw"],
     "uart": true,
-    "webui": "https://[HOST]:[PORT:7070]/",
+    "webui": "http://[HOST]:[PORT:7070]/",
     "ports": {
         "5200/tcp": 5200,
         "5353/udp": 5353,
